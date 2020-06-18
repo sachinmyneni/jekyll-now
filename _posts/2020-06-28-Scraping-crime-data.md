@@ -20,9 +20,9 @@ This is what my data looked like:
 
 Here is my problem: Each state has anywhere from 5-20 reporting areas. Each area can have a handful to 1000s of reported dates. As I peeked into some areas I saw reports going back a couple of decades! This is going to take some time.
 
-1. I started off with a random 1-10 second gap between scrapes. I did not want to get banned from this site. They do a public service and I did not want to "attack" the site with too many request. This alone means the scraping will take a very long time (if everything goes well).
+1. I started off with a random 1-10 second gap between scrapes. I did not want to get banned from this site. They do a public service and I did not want to "attack" the site with too many requests. This alone means the scraping will take a very long time (if everything goes well).
 1. Save your data: Errors, exceptions, outages, bugs happen. Save your data to a CSV file or a database as you scrape. You don't want to spend a few days on a project like this only to lose what you've downloaded so far. It is a terrible waste.
-1. I first started off with simple depth-frist tree search: state->place->date. 
+1. I first started off with simple depth-first tree search: state->place->date. 
    After I worked out all the kinks I left the script to run overnight.. 
    Next morning I discovered it had failed on a link: timeout. This is OK. 
    I had saved each date's data into a CSV (date,crime,address,place,state). 
