@@ -37,3 +37,4 @@ Here is my problem: Each state has anywhere from 5-20 reporting areas. Each area
    As of the writing of this page I am at around 885,000 lines in the CSV file (Huntington, West Virginia, 2010)
 1. WIP: The next plan is to break down the CSV by state so that scanning for existing records does not take a long time in future restarts.
 
+All this is in my fundata repo. Not really "fun" per se.. but I am hoping I can work on more ... positive things in the future.
