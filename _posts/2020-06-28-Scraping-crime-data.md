@@ -35,4 +35,5 @@ Here is my problem: Each state has anywhere from 5-20 reporting areas. Each area
    I changed the dictionary lookup into a random.sample(list(dict),1) and did not use a specific seed. 
    So far each time it started off with a different state and different city. 
    As of the writing of this page I am at around 885,000 lines in the CSV file (Huntington, West Virginia, 2010)
+1. WIP: The next plan is to break down the CSV by state so that scanning for existing records does not take a long time in future restarts.
 
